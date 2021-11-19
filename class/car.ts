@@ -6,8 +6,7 @@ export class Car extends Vehicle {
     constructor(
         id: string, 
         type: VehicleType, 
-        size: number,
-        box: ParkingBox){
-            super(id, type, size, box);
+        size: number){
+            super(id, type, size);
         };
 }
